@@ -1,28 +1,15 @@
 #include <iostream>
 using namespace std;
-struct phone
+struct stdt
 {
-    int area_code;
-    int exchange;
-    int num;
+int stud_id;
+int age;
+float mark[5];
+   
 };
-
 int main()
 {
-    phone phone1= {212,767,8900},phone2;
-      cout<<"enter the second phone number\n";
-      cout<<"enter the area code\n";
-      cin>>phone2.area_code;
-      cout<<"enter the exchange\n";
-      cin>>phone2.exchange;
-      cout<<"enter the number\n";
-      cin>>phone2.num;
-      cout<<"the first phone number is: ";
-      cout<<phone1.area_code<<" "<<phone1.exchange<<" "<<phone1.num<<endl;
-    cout<<"the second phone number is: ";
-      cout<<phone2.area_code<<" "<<phone2.exchange<<" "<<phone2.num;
-
-
-
-    return 0;
+stdt 
+s1={0x122,22,{89,89,89,78,87}};
+cout<<s1.stud_id<<endl<<s1.age<<endl<<s1.mark[0];
 }
